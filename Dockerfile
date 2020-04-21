@@ -13,7 +13,7 @@ RUN conda install \
 
 RUN /opt/conda/bin/python -m pip install \
     jrnr>=0.2.4 \
-    git+git://github.com/ClimateImpactLab/climate_toolbox/tree/archive \
+    git+git://github.com/ClimateImpactLab/climate_toolbox@archive \
     metacsv \
     datafs \
     impactlab-tools
